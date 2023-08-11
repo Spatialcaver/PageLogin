@@ -52,7 +52,7 @@ function cadastrar(event){
         document.getElementById('cadsenha').style.backgroundColor = 'red';
     } else {
         alert('Cadastro realizado com sucesso, faça login para continuar');
-        window.location.href = 'login.html'; 
+        window.location.href = 'index.html'; 
     }
 }
 
