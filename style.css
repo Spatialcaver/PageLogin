@@ -1,0 +1,201 @@
+.logo {
+    width: 50px;
+    border-radius: 10%;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin: 0;
+   
+     
+}
+
+body {
+    background-color: rgba(128, 0, 128, 0.872);
+    min-height: 100vh;
+    margin: 10% auto ;
+    opacity: 0.9;
+
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+/* Efeito de hover */
+.button:hover {
+    background-color: #16a085;
+}
+
+footer {
+    text-align: center !important;
+    background-color:  #000000f1;
+
+    margin-top: 100%;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin-left: 0%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #333;
+    box-shadow: 5px 5px 10px rgb(105, 34, 105);
+}
+
+.icons {
+    width: auto;
+    height: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin-top: 0 !important;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: #000000f1;
+    width: 80%; /* Largura desejada */
+    max-width: 500px; /* Largura máxima para evitar que fique muito largo em telas grandes */
+    margin: 10% auto; /* Centraliza verticalmente e centraliza horizontalmente */
+    padding: 20px;
+    border-radius: 10%;
+    color: #333;
+    box-shadow: 3px 3px 3px 3px rgba(216, 88, 216, 0.819) !important;
+    opacity: 0.9 !important;
+
+}
+
+.secform {
+    background-color: #000000ae !important;
+    color: rgb(240, 50, 240) !important;
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    border-radius: 5%;
+    padding: 20px; /* Adicione um padding para separar o conteúdo da borda */
+    box-shadow: 0px opx 15px rgb(216, 88, 216, 0.819) !important;
+    text-align: left;
+    opacity: 0.9;
+    
+    margin: 10% auto;
+   
+}
+
+.imageform{
+    flex: 1;
+    width: 150px;
+    height: 10px;
+    margin: 0;
+
+}
+
+#imageredef{
+    flex: 1;
+    padding: 5px;
+    display: flex;
+    width: 200px;
+    height: 150px;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+    color: #481754f1;
+}
+
+.secform form{
+    flex: 2;
+    max-width: 400px;
+    text-align: left;
+    text-align: center;
+}
+
+.secform label{
+    text-align: left !important;
+    margin-bottom: 5%;
+}
+
+.login {
+    display: grid !important;
+    gap: 10px !important;
+    max-width: 400px !important;
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+}
+
+.login label {
+    text-align: left !important;
+    margin: 10% auto;
+    margin-top: 5%;
+}
+
+nav {
+    top:0;
+    left: 0;
+    right: 0;
+    margin: 0px;
+    background-color: rgba(250, 235, 215, 0);
+    text-align: left;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px #183608;
+}
+
+header {
+    background-color:  #000000f1;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    color: #333;
+    box-shadow: 5px 5px 10px rgba(216, 88, 216, 0.819);
+    opacity: 0.9;
+}
+
+#cadastrobtn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+form label{
+    text-align: left !important;
+   margin: 10% auto;
+   margin-top: 5%;
+
+}
+
+h3{
+    margin-top: 0;
+    margin-bottom: 17%;
+}
+
+
+
