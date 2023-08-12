@@ -13,41 +13,55 @@
     <section>
         <img src="assets/user.png" alt="">
         
-    <div class="main">
+        <div class="main">
         
-
-        <div>
-     
             <section class="secform">
                 <div class="imageform">
                     <img src="assets/Cadastro3.png" alt="">
                 </div>
-                <H3>Cadastrar-se:</H3>
- <form class="login"> <strong>
-    <lu>
-        <div>
-<lo><input id="cadname" value="nome" type="text"></lo>
-</div>
-<br>
-<div>
-<lo><input id="cadsobrenome" type="text" value="Sobrenome" ></lo>
-</div>
-<br>
-<div>
-<lo> <input id="cademail" type="email" value="email" ></lo>
-</div>
-<br>
-<div>
-<lo></label> <input id="cadusuario" value="usuario" type="text" ></lo>
-</div>
-<br>
-<div>
-<lo> <input id="cadsenha" value="senha" type="password" ></lo>
-</div>
-<div>  
+                <H3>Cadastro:</H3>
+                <div>
+             
         
-    <input class="btn" id="cadastrobtn" type="button" value="Cadastrar-se" onclick="cadastrar(event)">
+         <form class="login"> <strong>
+            <lu>
+        <lo><label for="">Nome:</label> <input id="cadnome" type="text"></lo>
+        <br>
+        <lo><label for="">Usuário:</label> <input id="caduser" type="text"></lo>
+        <br>
+        <lo><label for="Senha"> Senha:</label> <input id="cadsenha" type="password" ></lo>
+        <br>
+        
+        <lo><label for="Senha"> Email:</label> <input id="cademail" type="email" ></lo>
+       
+        </form>
+        </lu>
+        </div>
+             
+                <div>  
+                
+                    <input class="btn" type="button" value="Entrar" onclick="entrar(event)">
+                
+                </div>
+            </div>
+                             
+ 
+ 
+ <!--                    <form class="login"> <strong>
+    <lu>
+        
+<lo><label for="">Nome:</label><input id="cadname" value="nome" type="text"></lo>
 
+<lo><label for="">Sobrenome:</label><input id="cadsobrenome" type="text" value="Sobrenome" ></lo>
+
+<lo><label for="">Email:</label> <input id="cademail" type="email" value="email" ></lo>
+
+<lo><label for="">Usuário:</label> </label> <input id="cadusuario" value="usuario" type="text" ></lo>
+
+<lo> <label for="">Senha:</label><input id="cadsenha" value="senha" type="password" ></lo>
+
+    
+-->
 </div>
 </form>
 </lu>
