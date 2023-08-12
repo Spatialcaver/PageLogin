@@ -28,7 +28,6 @@ function entrar(event){
 function cadastrar(event){
     event.preventDefault();
     var nome = document.getElementById('cadnome')
-    var sobrenome = document.getElementById('cadsobrenome')
     var email = document.getElementById('cademail')
     var user = document.getElementById('cadusuario')
     var senha = document.getElementById('cadsenha')
@@ -38,9 +37,6 @@ function cadastrar(event){
     if (nome === '') { 
         alert("O campo Nome deve ser preenchido!");
         document.getElementById('cadnome').style.backgroundColor = 'red';
-    } else if (sobrenome === '') {
-        alert("O campo Sobrenome deve ser preenchido!");
-        document.getElementById('cadsobrenome').style.backgroundColor = 'red';
     } else if (email === '') {
         alert("O campo Email deve ser preenchido!");
         document.getElementById('cademail').style.backgroundColor = 'red';
