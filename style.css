@@ -131,6 +131,8 @@ a{
 .secform label{
     text-align: left !important;
     margin-bottom: 5%;
+    padding-top: 5px;
+    
 }
 
 .login {
@@ -145,6 +147,8 @@ a{
     text-align: left !important;
     margin: 10% auto;
     margin-top: 5%;
+    padding-top: 5px;
+    
 }
 
 nav {
